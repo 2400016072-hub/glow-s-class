@@ -1,14 +1,14 @@
-import Navbar from "./components/Navbar";
-import ProductList from "./components/ProductList";
-import "./assets/styles/main.css";
+import UserPage from "./pages/UserPage";
+import AdminPage from "./pages/AdminPage";
 
-const App = () => {
+function App() {
   return (
     <>
-      <Navbar />
-      <ProductList />
+      <UserPage />
+      <hr />
+      <AdminPage />
     </>
   );
-};
+}
 
 export default App;
